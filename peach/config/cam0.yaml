@@ -1,0 +1,14 @@
+%YAML:1.0
+model_type: PINHOLE
+image_width: 752
+image_height: 480
+intrinsics:
+  fx: 435.2046959714599
+  fy: 435.2046959714599
+  cx: 367.4517211914062
+  cy: 252.2008514404297
+distortion_parameters:
+  k1: 0
+  k2: 0
+  p1: 0
+  p2: 0
