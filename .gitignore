@@ -1,5 +1,2 @@
 .vscode
-.catkin_workspace
-build
-devel
-src/orange/data/merged_LZ_2021-7-15-9-0-4.bag
+src/peach/build

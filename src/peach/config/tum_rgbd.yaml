@@ -1,22 +1,28 @@
 %YAML:1.0
 
+# rgbd数据集路径
+dataset: "/home/lutao/data/rgbd_dataset_freiburg1_xyz"
+
 # 数据输出目录
 output_path: "output"
 
-image_width: 752
+image_width: 640
 image_height: 480
 
 # 相机内参
 intrinsics:
-  fx: 435.2046959714599
-  fy: 435.2046959714599
-  cx: 367.4517211914062
-  cy: 252.2008514404297
+  fx: 517.3
+  fy: 516.5
+  cx: 318.6
+  cy: 255.3
 distortion_parameters:
-  k1: 0
-  k2: 0
-  p1: 0
-  p2: 0
+  d0: 0.2624
+  d1: -0.9531
+  d2: -0.0054
+  d3: 0.0026
+  d4: 1.1633
+depth:
+  ds: 1.035
 
 # cam0到imu的变换
 T_body_cam0: !!opencv-matrix
